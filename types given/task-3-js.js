@@ -1,0 +1,8 @@
+console.log(Boolean(console.log),'|', typeof Boolean(console.log))
+console.log(String({ name: 'Maxim' }),'|', typeof String({ name: 'Maxim' }))
+console.log(Boolean(Symbol('key')),'|', typeof Boolean(Symbol('key')))
+console.log(String(Number),'|', typeof String(Number))
+console.log(Boolean(''),'|', typeof Boolean(''))
+console.log(String(0),'|', typeof String(0))
+console.log(String(-10),'|', typeof String(-10))
+console.log(Number('-105'),'|', typeof Number('-105'))
